@@ -1,0 +1,103 @@
+.songs, .playlists, .search {
+    display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header .active span{
+  color : #7F0E80;
+
+}
+
+
+.container {
+    background-color: #E8E0F4;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    margin:0;
+
+}
+
+.navbar-default .navbar-nav .active a{
+  background-color: #F9F9F9;
+}
+
+
+header{
+  width: 100%;
+  background-color: #F9F9F9;
+  border-bottom: 0.5px solid #979797;
+  font-size:20px;
+}
+
+header .glyphicon{
+  color: black;
+}
+
+.navbar{
+  width: 100%;
+  border: none;
+  margin: 0px;
+}
+.navbar-nav{
+  margin: 0;
+}
+
+.navbar-default{
+  background-color: inherit;
+}
+
+
+li{
+  float: left;
+  text-align: center;
+  width: 33.2%;
+}
+
+
+span {
+  display: inline;
+}
+img{
+  margin-right: 10%;
+  margin-left: 2%;
+}
+
+h4{
+  border-bottom: 1px solid #979797;
+  padding-bottom: 10px;
+  color: #835B96;
+  font-style: italic;
+}
+
+.Playlists{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+
+}
+
+button{
+   width: 90%;
+   border-width: inherit;
+   background-color: #936AC7;
+   color: white;
+   border-radius: 7px;
+   margin-left: 18px;
+   margin-top: 10px;
+   font-size: 15px;
+ }
+
+.Playlists .glyphicon{
+  top: 15px;
+  color: #808080;
+}
